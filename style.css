@@ -78,7 +78,7 @@ body {
     left: 0;
     width: 50%;
     height: 100%;
-    background: #ac7156;
+    background: #b6a28e;
     box-shadow: var(--box-shadow);
     border-top-left-radius: .6rem;
     border-bottom-left-radius: .6rem;
@@ -163,11 +163,20 @@ body {
     color: var(--cor-titulo)    ;
 }
 
+.sinopse-titulo {
+    text-align: center;
+}
+
 .sinopse-titulo h1 {
     font-family: 'Young-serif';
     font-size: 45px;
     font-weight: 500;
-    line-height: 1px;
+    line-height: 25px;
+}
+
+.sinopse-titulo h1 span {
+    font-size: 30px;
+    font-family: 'Young-serif';
 }
 
 .sinopse-desc h3 {
@@ -260,7 +269,6 @@ body {
     width: 2rem;
     height: 2rem;
     background: transparent;
-    border: 2px solid var(--cor-texto);
     border-radius: .3rem;
     font-size: 1.1rem;
     color: var(--cor-texto);
@@ -282,8 +290,7 @@ body {
     transform: translateX(-50%) scale(.5);
     font-family: 'Poppins-regular';
     font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 13px;
     color: var(--cor-texto);
     opacity: 0;
     transition: .5s;
@@ -337,7 +344,6 @@ body {
     width: 2rem;
     height: 2rem;
     background: transparent;
-    border: 2px solid var(--cor-texto);
     border-radius: .3rem;
     font-size: 1.1rem;
     color: var(--cor-texto);
@@ -359,8 +365,7 @@ body {
     transform: translateX(-50%) scale(.5);
     font-family: 'Poppins-regular';
     font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 13px;
     color: var(--cor-texto);
     opacity: 0;
     transition: .5s;
